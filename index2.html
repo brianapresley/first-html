@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Control</title>
+</head>
+
+<body>
+    <div hidden>
+        <p>This form is for user information.</p>
+        <p>This is another form for user information
+            and it will be stored in our datatbase.</p>
+    </div>
+    <div>
+        <p>Enter all the text fields.</p>
+        <p>The password field is masked.</p>
+        <p>Click the button when ready.</p>
+    </div>
+
+
+    <form method="GET" action="index3.html">
+        <table>
+            <tr>
+                <td> First Name:</td>
+                <td><input type="text" name="firstname" value=""></td>
+            </tr>
+            <tr>
+                <td> Last Name:</td>
+                <td><input type="text" name="lastname" value=""></td>
+            </tr>
+            <tr>
+                <td> User Name:</td>
+                <td><input type="text" name="username" value=""></td>
+            </tr>
+            <tr>
+                <td> Password:</td>
+                <td><input type="password" name="password" value=""></td>
+            </tr>
+            <tr>
+                <td> Employee:</td>
+                <td><input type="checkbox" checked="checked" name="employee"></td>
+            </tr>
+        </table>
+
+        <input type="submit" value="Submit the form">
+    </form>
+</body>
+
+</html>
